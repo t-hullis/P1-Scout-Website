@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Cutive+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+body {
+    font-family: cutive-mono,sans-serif;
+    font-size: 280%;
+    font-weight: lighter;
+    
+    
+}
+
+/* headings */
+h1, h2 {
+    font-family: Cutive,sans-serif;
+    text-transform: uppercase;
+
+}
+
+/* logo */
+#logo {
+    position:fixed;
+    float: left;
+    margin: 30px 10px 10px 10px;
+}
+
