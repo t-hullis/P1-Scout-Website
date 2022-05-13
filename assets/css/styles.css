@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive&family=Cutive+Mono&display=swap');
 :root {
-    --opac:0.6;  /*opacity of backgrounds */
+    --opac:0.3;  /*opacity of backgrounds */
 }
 * {
     margin: 0;
@@ -21,8 +21,8 @@ h1, h2 {
     font-family: Cutive,sans-serif;
     text-transform: uppercase;
     text-align: center;
-
 }
+
 p {
    border: 1px solid black;
 }
@@ -36,23 +36,19 @@ p {
 
 /* nav bar */
 #navi {
+    clear: both;
     flex: 1;
     text-align: right;
     margin-left: 10px;
     color: blueviolet;
-    font-size: 100%;
-
-    
-    
+    font-size: 100%; 
 }
 #navi ul li {
     display: inline-block;
     position: relative;
     list-style: none;
     margin-right: 30px;
-    font-size: 150%;
-
-    
+    font-size: 150%; 
 }
 
 /* structure background  */
@@ -60,12 +56,11 @@ p {
 #box-1 {
     position: fixed;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     padding: 0;
     background-color: rgba(255, 255, 255, 0.6);
     align-items: center;
-   
 }
 
 #box-2 {
@@ -73,12 +68,11 @@ p {
     flex-direction: column;
     height: 100vh;
     width: 100%;
+    align-items: center;
     padding-top: 60px;
     background-image: linear-gradient(rgba(255,255,255,var(--opac)), rgba(255,255,255,var(--opac))),url('../images/scouts1.jpg');
     background-size: cover;
-    background-position: center;
-    
-    
+    background-position: center; 
 }
 
 
@@ -86,12 +80,11 @@ p {
     display: flex;
     height: 100vh;
     width: 100%;
-    gap: 5vw;
+    gap: 2vw;
+    align-items: center;
     background-image: linear-gradient(rgba(255,255,255,var(--opac)), rgba(255,255,255,var(--opac))),url('../images/scouts2.jpg');
     background-size: cover;
     background-position: center;
-    
-
 }
 
 #box-4 {
@@ -113,23 +106,28 @@ p {
     padding-bottom: 25px;
   
 }
-.pg-main {
-    /*border: 2px solid black; */
-    display: inline-block;
-    width: 100%;
-    gap: 10px;
-    text-align: center;
+.card-2 {
+    /*border: 1px solid black;*/
+    width: 80vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 4vh;
+    
 
 }
-.pg-main > p {
-    height: 27vh;
     
-}
+
+
 
 
 /* scout events page */
 
-.card {
-    border: 1px solid black;
+.card-3 {
+    /*border: 1px solid black;*/
     width: 30vw;
+    height: 80vh;
+    /*background-color: rgba(54, 17, 89, .5); */
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
