@@ -7,7 +7,7 @@
     padding: 0;
     border: none;
     font-family: cutive-mono,sans-serif;
-    color: blueviolet;
+    color: black;
 }
 
 
@@ -20,9 +20,12 @@ body {
 h1, h2 {
     font-family: Cutive,sans-serif;
     text-transform: uppercase;
+    text-align: center;
 
 }
-
+p {
+    border: 1px solid black;
+}
 /* logo */
 #logo {
    
@@ -52,6 +55,7 @@ h1, h2 {
     
 }
 
+/* structure background  */
 
 #box-1 {
     position: fixed;
@@ -66,19 +70,22 @@ h1, h2 {
 
 #box-2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     height: 100vh;
     width: 100%;
     padding-top: 60px;
     background-image: linear-gradient(rgba(255,255,255,var(--opac)), rgba(255,255,255,var(--opac))),url('../images/scouts1.jpg');
     background-size: cover;
     background-position: center;
-    justify-content: center;
+    
     
 }
 
 
 #box-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(255,255,255,var(--opac)), rgba(255,255,255,var(--opac))),url('../images/scouts2.jpg');
@@ -98,15 +105,29 @@ h1, h2 {
 /* welcome page */
 .pg-heading {
     border: 2px solid black;
-    justify-content: center;    
+    text-align: center;
+ 
+    margin-top: 25px;
     font-size: 200%;
-    height: fit-content;
-    position: relative;
-   
+    width: 100%;
+    padding-bottom: 25px;
+  
 }
 .pg-main {
     border: 2px solid black;
-    display: flex;
+    display: inline-block;
+    width: 100%;
     gap: 10px;
-  
+    text-align: center;
+
+}
+
+
+/* scout events page */
+
+.card {
+    border: 1px solid black;
+    flex: 1;
+    width: 100%;
+    height: max-content;
 }
