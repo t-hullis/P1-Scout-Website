@@ -18,6 +18,9 @@ body {
     font-size: 100%;
     font-weight: lighter;
 }
+footer {
+    background-color: darkolivegreen;
+}
 
 /* headings */
 h1, h2 {
