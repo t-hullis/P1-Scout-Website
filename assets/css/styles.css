@@ -30,10 +30,10 @@ h1, h2 {
     font-size: 250%;
 }
 
-p {
-   border: 1px solid var(--logocl);
-}
-/* logo */
+ /*  p {
+   border: 1px solid var(--logocl); 
+}*/
+/* logo  */
 #logo {
    padding-top: 10px;
     margin : 10px 10px 10px 10px;
@@ -127,10 +127,20 @@ p {
     /*border: 1px solid black;*/
     width: 80vw;
     height:90vh;
-    
+    align-content: center;
     background-color: var(--bg-color);
     margin-bottom: 4vh;
     box-shadow: var(--shadow);
+    
+
+}
+
+.card-2 > * {
+    text-align: center;
+}
+
+iframe {
+    width: clamp(30vw, 50vw, 60vw);
     
 
 }
@@ -172,5 +182,7 @@ p {
 padding-left: 5vw;
 padding-top: 3vh;
 }
-
+#clock-img > i {
+   
+}
     
