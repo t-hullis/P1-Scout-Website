@@ -157,19 +157,7 @@ iframe {
     padding: 10px;
     background-color: var(--bg-color);
     box-shadow: var(--shadow);
-
 }
-
-.card-4 {
-    /*border: 1px solid black;*/
-    width: 70vw;
-    height: 80vh;
-    padding: 15px;
-    background-color: var(--bg-color);
-    box-shadow: var(--shadow);
-
-}
-
 
 
 /* MEETUP TIMES PAGE */
@@ -186,3 +174,27 @@ padding-top: 3vh;
    
 }
     
+
+
+/* Form Page */
+.card-4 {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    height: 80vh;
+    padding: 15px;
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
+
+}
+
+form {
+    margin-top: 1vh;
+    text-align: center;
+
+}
+input {
+    align-self: center;
+}
