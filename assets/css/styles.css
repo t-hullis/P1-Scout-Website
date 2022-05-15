@@ -39,11 +39,12 @@ h1, h2 {
     margin : 10px 10px 10px 10px;
     font-size: 250%;
     color: var(--logocl);
-   
 }
 #logo >  i {
     color: var(--logocl) ;
-    
+}
+a {
+    text-decoration: none;
 }
 
 /* nav bar */
@@ -191,7 +192,7 @@ padding-top: 3vh;
 }
 
 form {
-    margin-top: 1vh;
+    margin-top: 5vh;
     text-align: center;
 
 }
