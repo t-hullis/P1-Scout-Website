@@ -87,6 +87,7 @@ a {
     background-image: linear-gradient(rgba(255,255,255,var(--opac)), rgba(255,255,255,var(--opac))),url('../images/scouts1.jpg');
     background-size: cover;
     background-position: center; 
+
 }
 
 
@@ -131,6 +132,7 @@ a {
     align-content: center;
     background-color: var(--bg-color);
     margin-bottom: 4vh;
+    padding: 2vw;
     box-shadow: var(--shadow);
     
 
@@ -142,7 +144,6 @@ a {
 
 iframe {
     width: clamp(30vw, 50vw, 60vw);
-    
 
 }
     
@@ -153,27 +154,29 @@ iframe {
     /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 45vw;
     height: 80vh;
-    padding: 10px;
     background-color: var(--bg-color);
     box-shadow: var(--shadow);
+    margin: 20px;
+
+}
+.card-3 > ul {
+    padding-top: 5vh;
 }
 
+.card-3 > ul > li {
+    list-style: none;
+    font-size: 160%;
+}
 
-/* MEETUP TIMES PAGE */
 
 .pg-heading-3 {
-    width: 100%;
+    padding-top: 3vh;
 }
 
-.card-3 > ul {
-padding-left: 5vw;
-padding-top: 3vh;
-}
-#clock-img > i {
-   
-}
+
     
 
 
@@ -190,11 +193,14 @@ padding-top: 3vh;
     box-shadow: var(--shadow);
 
 }
+.pg-heading-4 {
+    margin-top: 3vh;
+}
 
 form {
     margin-top: 5vh;
     text-align: center;
-
+    
 }
 input {
     align-self: center;
