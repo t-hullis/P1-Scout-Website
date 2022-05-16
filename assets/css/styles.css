@@ -93,6 +93,7 @@ a {
     background-size: cover;
     background-position: center; 
 
+
 }
 
 
@@ -138,6 +139,7 @@ a {
     margin-bottom: 4vh;
     padding: 2vw;
     box-shadow: var(--shadow);
+    overflow: hidden scroll;
     
 
 }
@@ -147,8 +149,7 @@ a {
 }
 
 iframe {
-    width: fit-content;
-    height: fit-content;
+    width: 60vw;
 }
     
 
@@ -195,6 +196,7 @@ iframe {
     padding: 15px;
     background-color: var(--bg-color);
     box-shadow: var(--shadow);
+    overflow: hidden scroll;
 
 }
 .pg-heading-4 {
@@ -205,13 +207,11 @@ form {
     margin-top: 5vh;
     text-align: center;
     
+    
 }
 input {
     align-self: center;
 }
-
-
-
 
 
 
@@ -234,6 +234,31 @@ input {
     }
     .card-2 {
         height: 70vh;
+    }
+    #box-3 {
+        height: 80vh;
+    }
+    .card-3 {
+        height: 70vh;
+    }
+    #box-4 {
+     
+        height: 80vh;
+    }
+    .card-4 {
+        height: 70vh;
+    }
+    iframe{
+        height: 150px;
+    }
+    h1, h2 {
+        font-size: 150%;
+    }
+  
+
+
+    textarea {
+        width: 50vw;
     }
     
 }
