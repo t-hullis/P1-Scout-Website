@@ -15,6 +15,7 @@
 
 
 body {
+    font-size: 135%;
 
     font-weight: lighter;
 }
@@ -26,7 +27,7 @@ h1, h2 {
     font-family: Cutive,sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 250%;
+    font-size: 210%;
 }
 
  /*  p {
@@ -36,7 +37,7 @@ h1, h2 {
 #logo {
    padding-top: 10px;
     margin : 10px 10px 10px 10px;
-    font-size: 250%;
+    font-size: 200%;
     color: var(--logocl);
 }
 #logo >  i {
@@ -53,7 +54,7 @@ a {
     text-align: right;
     margin-left: 10px;
     color: var(--logocl);
-    font-size: 100%; 
+    font-size: 80%; 
 
 }
 #navi ul li {
@@ -158,22 +159,24 @@ iframe {
     /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     width: 45vw;
     height: 80vh;
     background-color: var(--bg-color);
     box-shadow: var(--shadow);
-    margin: 20px;
-
 }
 .card-3 > ul {
     padding-top: 5vh;
+    justify-content: center;
+    margin-left: 10vw ;
+
 }
 
-.card-3 > ul > li {
-    list-style: none;
-  
+.card-3 li {
+    padding-bottom: 5vh;
 }
+
+
 
 
 .pg-heading-3 {
