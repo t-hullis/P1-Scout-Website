@@ -13,14 +13,10 @@
     color: var(--logocl);
 }
 
-
 body {
     font-size: 135%;
-
     font-weight: lighter;
 }
-
-
 
 /* headings */
 h1, h2 {
@@ -30,9 +26,6 @@ h1, h2 {
     font-size: 210%;
 }
 
- /*  p {
-   border: 1px solid var(--logocl); 
-}*/
 /* logo  */
 #logo {
    padding-top: 10px;
@@ -55,7 +48,6 @@ a {
     margin-left: 10px;
     color: var(--logocl);
     font-size: 80%; 
-
 }
 #navi ul li {
     display: inline-block;
@@ -66,7 +58,6 @@ a {
 }
 
 /* structure background  */
-
 #box-1 {
     position: fixed;
     display: flex;
@@ -76,12 +67,7 @@ a {
     background-color: var(--bg-color);
     align-items: center;
     box-shadow: var(--shadow);
-
 }
-
-
-
-
 #box-2 {
     display: flex;
     flex-direction: column;
@@ -92,11 +78,7 @@ a {
     background-image: linear-gradient(rgba(255,255,255,var(--opac)), rgba(255,255,255,var(--opac))),url('../images/scouts1.jpg');
     background-size: cover;
     background-position: center; 
-
-
 }
-
-
 #box-3 {
     display: flex;
     height: 100vh;
@@ -108,7 +90,6 @@ a {
     background-position: center;
     gap: 3vw;
 }
-
 #box-4 {
     display: flex;
     height: 100vh;
@@ -122,16 +103,11 @@ a {
 
 /* welcome page */
 .pg-heading-2 {
-    /*border: 2px solid black; */
     text-align: center;
- 
     margin-top: 25px;
-  
     padding-bottom: 25px;
-  
 }
 .card-2 {
-    /*border: 1px solid black;*/
     width: 80vw;
     height:90vh;
     align-content: center;
@@ -140,26 +116,18 @@ a {
     padding: 2vw;
     box-shadow: var(--shadow);
     overflow: hidden scroll;
-    
-
 }
-
 .card-2 > * {
     text-align: center;
 }
-
 iframe {
     width: 60vw;
 }
     
-
 /* scout events page */
-
 .card-3 {
-    /*border: 1px solid black;*/
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
     width: 45vw;
     height: 80vh;
     background-color: var(--bg-color);
@@ -170,23 +138,13 @@ iframe {
     padding-top: 5vh;
     justify-content: center;
     margin-left: 10vw ;
-
 }
-
 .card-3 li {
     padding-bottom: 5vh;
 }
-
-
-
-
 .pg-heading-3 {
     padding-top: 3vh;
 }
-
-
-    
-
 
 /* Form Page */
 .card-4 {
@@ -200,47 +158,35 @@ iframe {
     background-color: var(--bg-color);
     box-shadow: var(--shadow);
     overflow: hidden scroll;
-
 }
 .pg-heading-4 {
     margin-top: 3vh;
 }
-
 form {
     margin-top: 5vh;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 input {
     align-self: center;
 }
 
-
 /* footer */
 footer {
-    height: 6vh;
+    height: 10vh;
     background-color: var(--bg-color);
 }
-
 .social-networks {
     text-align: center;
-    
 }
-
 .social-networks > li {
     display: inline;
-    
 }
-
 .social-networks i {
     font-size: 260%;
     padding-left: 3vw;
     padding-right: 3vw;
-
     color: var(--logocl);
 }
-
 
 @media all and (max-width:500px) {
     #box-1 {
@@ -248,13 +194,10 @@ footer {
         display: block;
         font-size: 70%;
         align-items: center;
-
     }
     #navi {
         text-align: center;
-       
     }
-    
     #box-2 {
         padding-top: 17vh;
         height: 80vh;
@@ -269,7 +212,6 @@ footer {
         height: 70vh;
     }
     #box-4 {
-     
         height: 80vh;
     }
     .card-4 {
@@ -281,27 +223,21 @@ footer {
     h1, h2 {
         font-size: 150%;
     }
-  
-
-
     textarea {
         width: 50vw;
     }
-    
 }
+
 @media all and (max-width:350px) {
     * {
         font-size: 10px;
     }
     #box-1 {
         height: 80px;
-
     }
-
     footer {
         height: 5vh;
     }
-    
 }
 
 @media all and (min-width:1000px) {
