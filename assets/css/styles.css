@@ -219,7 +219,7 @@ input {
 
 /* footer */
 footer {
-    height: 7vh;
+    height: 6vh;
     background-color: var(--bg-color);
 }
 
@@ -304,9 +304,9 @@ footer {
     
 }
 
-@media all and (min-width:1100px) {
+@media all and (min-width:1000px) {
     iframe {
-        height: 33vh;
+        height: 45vh;
     }
     
 }
