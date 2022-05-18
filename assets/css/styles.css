@@ -18,9 +18,8 @@ body {
 
     font-weight: lighter;
 }
-footer {
-    background-color: darkolivegreen;
-}
+
+
 
 /* headings */
 h1, h2 {
@@ -214,6 +213,30 @@ input {
 }
 
 
+/* footer */
+footer {
+    height: 7vh;
+    background-color: var(--bg-color);
+}
+
+.social-networks {
+    text-align: center;
+    
+}
+
+.social-networks > li {
+    display: inline;
+    
+}
+
+.social-networks i {
+    font-size: 260%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    color: var(--logocl);
+}
+
 
 @media all and (max-width:500px) {
     #box-1 {
@@ -259,6 +282,16 @@ input {
 
     textarea {
         width: 50vw;
+    }
+    
+}
+@media all and (max-width:350px) {
+    * {
+        font-size: 10px;
+    }
+
+    footer {
+        height: 5vh;
     }
     
 }
