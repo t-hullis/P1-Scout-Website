@@ -3,7 +3,7 @@
     --opac:0.3;  /*opacity of backgrounds */
     --shadow: 0px 6px 10px rgba(0,0,0,0.8); /* text box shaddow */
     --bg-color: rgba(250,235,215,0.85); /* backround color */
-    --logocl: rgb(80,80,80);
+    --logocl: rgb(80,80,80); /* Color of the logo AND other text */
 }
 * {
     margin: 0;
@@ -12,7 +12,6 @@
     font-family: cutive-mono,sans-serif;
     color: var(--logocl);
 }
-
 body {
     font-size: 135%;
     font-weight: lighter;
@@ -239,14 +238,12 @@ footer {
         height: 5vh;
     }
 }
-
 @media all and (min-width:1000px) {
     iframe {
         height: 45vh;
     }
 }
 @media all and (min-height:800px) {
-
     #box-2 {
         height:60vh;
     }
@@ -256,7 +253,6 @@ footer {
     #box-4 {
         height:60vh;
     }
-
     .card-2 {
         height: 50vh;
     }
