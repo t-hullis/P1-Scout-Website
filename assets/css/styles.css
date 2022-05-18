@@ -244,5 +244,26 @@ footer {
     iframe {
         height: 45vh;
     }
-    
+}
+@media all and (min-height:800px) {
+
+    #box-2 {
+        height:60vh;
+    }
+    #box-3 {
+        height:60vh;
+    }
+    #box-4 {
+        height:60vh;
+    }
+
+    .card-2 {
+        height: 50vh;
+    }
+    .card-3 {
+        height: 50vh;
+    }
+    .card-4 {
+        height: 50vh;
+    }
 }
