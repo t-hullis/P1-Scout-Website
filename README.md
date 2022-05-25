@@ -10,19 +10,18 @@ Scout website is the home page for Binfield Scouts. It's a place to post meet up
 
 -It is colored to match the rest of the page. 
 
--This color was chosen as it is a very outdoors color and it isassocciated with the  sort of adventuras things you will be gitting up to.
+-This color was chosen as it is a very outdoors color and it is assocciated with the  sort of adventurous things you will be getting up to.
 
--The nav and logo have a text color which is easy to read on the background for ease of use. 
+-The nav and logo have a text color which is easy to read on the background, for ease of use. 
 
 -Everything is clear and easy to use.
 
 <img width="1104" alt="Screenshot 2022-05-18 at 16 57 28" src="https://user-images.githubusercontent.com/104645024/169088138-e33a49e4-085a-41db-8187-7dc7b45ef31b.png">
 
 ### Welcome Page
--The Welcome Page gives a quick intorduction to scouts in the form of both text and a video. 
+-The Welcome Page gives a quick introduction to scouts in the forms of both text and a video. 
 
--Both the text and video are on a large, central card. This is a theme 
-that runs through the website. 
+-Both the text and video are on a large, central card. This is a theme that runs through the website. 
 
 -The same color is used through-out.
 
@@ -31,7 +30,7 @@ that runs through the website.
 ### Meetup Time and Event Page
 -The meetup card shows you every scout group meeting each week.
 
--It gives you both the time and the day. the backcards continue to flow the theme. 
+-It gives you both the time and the day. The backcards continue to flow the theme. 
 
 -Text is moved over into the middle of the cards, to give a pleasing look.
 
@@ -45,23 +44,23 @@ that runs through the website.
 <img width="1101" alt="Screenshot 2022-05-18 at 16 54 55" src="https://user-images.githubusercontent.com/104645024/169087716-18f54645-c572-4e55-82ac-ba91030a0d66.png">
 
 ### Social Media footer
--This has been descretly put at the bottom of the page so as not to take up to much space but then icons have been added to make sure 
+-This has been discreetly put at the bottom of the page so as not to take up to much space but then icons have been added to make sure 
 its easy to understand what to do. 
 <img width="1101" alt="Screenshot 2022-05-18 at 16 55 11" src="https://user-images.githubusercontent.com/104645024/169087733-d5eaeb07-fef2-4724-8f92-ec0d9f40688c.png">
 
 ## Testing
 
--Ive tested this webpage runs on Chrome, Safari and Firefox
+-Ive tested this webpage runs on Chrome, Safari and Firefox.
 
--Ive done full testing on devtools to make sure this fits all screens of all sizes
+-Ive done full testing on devtools to make sure this fits all screens of all sizes.
 
--The Nav, headers and text is all clearly visible
+-The Nav, headers and text is all clearly visible.
 
--Ive tested the submit button and the form to see if it works. This includes the email field
+-Ive tested the submit button and the form to see if it works, as well as the email field.
 
 ## Bugs
 
--The text and video kept falling off the card and was hard to read so i added a scroll function on all cards to stop it happening
+-The text and video kept falling off the card and was hard to read so i added a scroll function on all cards to stop it happening and for uinty.
 
 ## Unfixed Bugs
 -None known
