@@ -58,6 +58,11 @@ its easy to understand what to do.
 
 -Ive tested the submit button and the form to see if it works, as well as the email field.
 
+## Deployment
+-I deployed this website on github pages, in the settings.
+
+-A link can be found here https://t-hullis.github.io/P1-Scout-Website/
+
 ## Bugs
 
 -The text and video kept falling off the card and was hard to read so i added a scroll function on all cards to stop it happening and for uinty.
